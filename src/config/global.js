@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Fundamentos del flujo de bienes',
+    Description:
+      'Este componente aborda los fundamentos de la gestión logística de los bienes, explorando el concepto de bienes, sus tipos y sistemas de clasificación. Analiza el almacén como centro clave, sus características, tipos y funciones. Además, detalla el proceso operativo de almacén, incluyendo las operaciones logísticas, y los movimientos de almacén, con sus tipos, características y técnicas de clasificación, para garantizar un flujo eficiente de mercancías.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,13 +36,18 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Flujo de bienes',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Normativa',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,14 +55,99 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Bienes',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tipos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Fichas técnicas',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Almacén',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concepto',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Características',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Tipos',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Funciones',
+            hash: 't_3_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Operación de almacén',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Concepto',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Etapas',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Herramientas tecnológicas',
+            hash: 't_4_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Movimientos de almacén',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Concepto',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Características',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Tipos',
+            hash: 't_5_3',
+          },
+        ],
       },
     ],
     subMenu: [

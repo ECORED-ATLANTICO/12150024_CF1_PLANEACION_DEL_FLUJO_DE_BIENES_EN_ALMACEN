@@ -2,13 +2,21 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    bottom: 10%
+    left: 5%
+    width: 100px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 10%
+    left: 2%
+    width: 100px
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 2%
+    right: 15%
+    width: 100px
 
 @keyframes float1
   0%
@@ -18,15 +26,156 @@
   
 .banner-principal .tarjeta
   background-position: left 50% !important
+  background-image: url('../assets/curso/portada/fondo-banner-principal-mobile.png') !important
+
+@media (min-width: 426px)
+  .banner-principal .tarjeta
+    background-image: url('../assets/curso/portada/fondo-banner-principal-tablet.png') !important
+    padding-right: 130px
+
+@media (min-width: 769px)
+  .banner-principal .tarjeta
+    padding-right: 0
+    overflow: hidden
+    background-image: url('../assets/curso/portada/fondo-banner-principal.png') !important
+
+  .banner-principal__info
+    padding-right: 85px !important
+
+@media (min-width: 1025px)
+  .banner-principal__info
+    padding-right: unset !important
+
+@media (max-width: 440px)
+  .banner-principal__descripcion
+    margin-bottom: 30px
+    padding-right: 45px
+  .banner-principal__accion
+    margin-top: 30px
+    margin-bottom: 50px
 
 .banner-principal__row .banner-principal__img
   width: 400px !important  
+  padding-bottom: 0 !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  @media (min-width: 1200px)
+    width: 550px !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
 
+.banner-interno__fondo 
+  background-image: url('../assets/curso/portada/banner-interno.png') !important
+
 figcaption
   font-weight: normal
+
+.bg-color-terciario-t20
+  background-color: $color-terciario-t20
+
+.fullwidth-bg
+  position: relative
+  z-index: 0
+
+  &--1::after
+    top: 0px
+    left: -60px
+    position: absolute
+    content: url('../assets/curso/temas/tema1/bg-1.png')
+
+    @media (max-width: 450px)
+      display: none
+
+  &--2::after
+    top: 0px
+    left: -60px
+    position: absolute
+    content: url('../assets/curso/temas/tema1/bg-2.png')
+
+    @media (max-width: 450px)
+      display: none
+
+.z-2
+  position: relative
+  z-index: 2
+
+.banner-text
+  background-color: $white
+  border-radius: 10px
+  padding: 20px 30px
+  margin-top: -40px
+  background: #DEDEDE
+  background: linear-gradient(180deg, rgba(222, 222, 222, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 75%, rgba(222, 222, 222, 1) 100%)
+
+@media (min-width: 992px)
+  .banner-text
+    margin-top: -60px
+
+.factores-slider
+  &__tarjeta
+    border-radius: 14px
+    height: 97% !important
+    box-shadow: 0px 0px 5px 0px #00000030
+    margin: 10px
+    
+  &__icon 
+    max-width: 239px
+  
+  &__title-wrapper
+    text-align: center
+
+  &__title
+    // background-color: $color-acento-contenido
+    padding: 10px 20px
+    display: block
+
+  &__number
+    color: $color-secundario
+    font-size: 30px
+    
+    &.color-acento-contenido
+      color: $color-acento-contenido
+      margin-bottom: 10px
+
+  .slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
+
+  .slyder-f__btn
+    height: 35px
+    width: 35px
+    max-width: 35px
+    background-color: $color-acento-botones
+    border-radius: 50%
+    padding: 0 !important
+    margin: 0 auto
+    color: $white
+    .fa-chevron-left
+      font-size: 20px
+    .fa-chevron-right
+      font-size: 20px
+
+.checklist
+  padding-left: 20px
+  width: fit-content
+
+  li
+    position: relative
+    padding: 10px 20px
+    padding-left: 0
+    border-bottom: 1px dotted #AFAFAF
+    text-align: left
+
+    &:last-child
+      border-bottom: none
+    &::before
+      content: url('../assets/curso/temas/check-icon.svg')
+      position: absolute
+      left: -25px
+      top: 12px
+
