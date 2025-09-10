@@ -95,6 +95,15 @@ figcaption
     @media (max-width: 450px)
       display: none
 
+  &--3::after
+    top: 0px
+    left: -60px
+    position: absolute
+    content: url('../assets/curso/temas/tema2/bg-1.png')
+
+    @media (max-width: 450px)
+      display: none
+
 .z-2
   position: relative
   z-index: 2
@@ -179,3 +188,82 @@ figcaption
       left: -25px
       top: 12px
 
+.bg-color-terciario
+  background-color: $color-terciario
+
+.numbered-card
+  position: relative
+  background-color: #EAECF0
+  min-height: 100%
+
+  &--num1
+    position: absolute
+    content: url('../assets/curso/temas/tema2/num-1.svg')
+    left: -3px
+    top: 50%
+    transform: translate(-50%, -50%)
+  &--num2
+    position: absolute
+    content: url('../assets/curso/temas/tema2/num-2.svg')
+    left: 0
+    top: 50%
+    transform: translate(-50%, -50%)
+  &--num3
+    position: absolute
+    content: url('../assets/curso/temas/tema2/num-3.svg')
+    left: 0
+    top: 50%
+    transform: translate(-50%, -50%)
+  &--img
+    position: absolute
+    top: 0
+    right: 0
+    width: 62px
+    transform: translate(50%, -50%)
+
+.bg-darkblue
+  background-color: #12263F
+
+.pasos-a__linea__esquina__linea
+  border-radius: 0
+
+.tabla-a
+  table th, table td
+    text-align: start
+    padding: 15px 10px
+
+.w-305
+  width: 305px
+  margin: 0 auto
+
+.w-53
+  width: 53px
+  margin: 0 auto
+
+.bg-fondo
+  &-3
+    background-image: url("../assets/curso/temas/tema2/bg-desktop.png") !important
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and (max-width: $bp-max-sm)
+      background-image: url("../assets/curso/temas/tema2/bg-mobile.png") !important
+      background-position: center
+      max-width: 671px
+      margin: 0 auto
+
+.acordion
+  &__activo
+    background-color: #FEECE6
+
+  .tarjeta
+    padding-left: 16px !important
+    padding-right: 16px !important
+    padding-top: 16px !important
+
+  &__header
+    margin-bottom: 16px !important
+
+  &__accion__btn--a
+    background-color: $color-acento-botones
+    color: $white
