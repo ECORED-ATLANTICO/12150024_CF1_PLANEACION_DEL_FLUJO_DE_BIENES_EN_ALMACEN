@@ -23,7 +23,7 @@
     .row.justify-content-center.align-items-center.z-2
       .col-sm-8.col-lg-4
         figure
-          img.mb-4.mb.lg-0(src='@/assets/curso/temas/tema5/2.png', alt='Imagen de un operador logistico')(data-aos="fade-up")
+          img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema5/2.png', alt='Imagen de un operador logistico')(data-aos="fade-up")
       .col-lg-8
         p.mb-3 Los movimientos de almacén representan el conjunto de operaciones que permiten el desplazamiento, control y gestión de productos dentro de un centro logístico. Estas acciones abarcan desde la recepción y ubicación inicial de la mercancía, pasando por su manipulación y preparación, hasta la expedición final hacia el siguiente eslabón de la cadena de suministro. Cada movimiento, ya sea físico o administrativo, está orientado a asegurar que los materiales estén disponibles exactamente donde y cuando se requieren para la producción o distribución.
         .cajon.color-acento-contenido.p-4

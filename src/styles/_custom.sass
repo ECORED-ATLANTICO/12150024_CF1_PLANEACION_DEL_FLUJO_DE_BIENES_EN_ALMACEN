@@ -104,6 +104,15 @@ figcaption
     @media (max-width: 450px)
       display: none
 
+  &--4::after
+    top: 0px
+    left: -60px
+    position: absolute
+    content: url('../assets/curso/temas/tema3/bg-1.png')
+
+    @media (max-width: 450px)
+      display: none
+
 .z-2
   position: relative
   z-index: 2
@@ -191,6 +200,13 @@ figcaption
 .bg-color-terciario
   background-color: $color-terciario
 
+.bg-color-secundario-s20
+  background-color: $color-secundario-s20
+
+.bg-grandiente-azul
+  background: #E5F0FC
+  background: linear-gradient(90deg, rgba(229, 240, 252, 1) 0%, rgba(222, 222, 222, 0) 100%)
+
 .numbered-card
   position: relative
   background-color: #EAECF0
@@ -241,6 +257,20 @@ figcaption
   margin: 0 auto
 
 .bg-fondo
+  &-2
+    background-image: url("../assets/curso/temas/tema3/bg-desktop.png") !important
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and (max-width: $bp-max-sm)
+      background-image: url("../assets/curso/temas/tema3/bg-tablet.png") !important
+      background-position: center
+      max-width: 671px
+      margin: 0 auto
+
+    i
+      font-size: 50px
+      color: $color-acento-botones
   &-3
     background-image: url("../assets/curso/temas/tema2/bg-desktop.png") !important
     background-position: center
@@ -267,3 +297,105 @@ figcaption
   &__accion__btn--a
     background-color: $color-acento-botones
     color: $white
+
+.graph-title
+  position: relative
+  width: fit-content
+  padding: 10px 30px
+  padding-left: 50px
+  background-color: #B2CDEA
+  margin-left: 20px
+  border-radius: 20px
+  margin-top: 20px
+  &::before
+    content: url('../assets/curso/temas/tema3/tabla-icon.svg')
+    position: absolute
+    left: -20px
+    top: 50%
+    transform: translateY(-50%)
+    max-width: 65px
+    display: block
+
+.crd_hover_txt 
+  position: relative
+  padding: 0
+  overflow: hidden
+  border-radius: 10px
+  &:hover
+    .crd_hover_txt--body 
+      background-color: $color-secundario-s10
+
+
+.crd_hover_txt:hover .crd_hover_txt--body 
+  transition: all .3s ease-in-out
+  transform: translateY(0)
+
+.crd_hover_txt .crd_hover_txt--body 
+  position: absolute
+  padding: 18px 13px 30px
+  bottom: 0
+  transition: all .3s ease-in-out
+  transform: translateY(calc(100% - 55px))
+  background-color: #FFE1D1
+
+@media (min-width: 1200px) and (max-width:1400px) 
+  .crd_hover_txt .crd_hover_txt--body p 
+      font-size: 14px
+      line-height: 18px
+
+.conservas-slyder
+  background-image: url('../assets/curso/temas/tema3/bg-slider.png')
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-acento-botones
+    border: none
+    transition-delay: 0.1s
+    opacity: 0.9
+    background-image: url('../assets/bullets/arrow-white.svg')
+    color: #FFFFFF
+
+    &.hide
+      opacity: 0
+      pointer-events: none
+
+  .slyder-a__bullets__item
+    background-color: #FE8849
+    border: 1px solid #FE8849
+    opacity: 0.3
+    margin: 0 8px
+  .slyder-a__bullets__item--active
+    opacity: 1
+
+  &.more-elements
+    @media (max-width: 650px)
+      .slyder-a__bullets__item
+        width: 10px
+        height: 10px
+        margin: 0 3px
+
+.bg-gray
+  background-image: url('../assets/curso/temas/tema3/bg-gray.png')
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+
+.tabs-a
+  @media (min-width: 992px) 
+    .row
+      .col-lg-4 
+        flex: 0 0 auto
+        width: 40%
+      .col-lg-8 
+        flex: 0 0 auto
+        width: 60%
+  @media (min-width: 1200px) 
+    .row
+      .col-xl-3 
+        flex: 0 0 auto
+        width: 38%
+      .col-xl-9
+        flex: 0 0 auto
+        width: 62%
