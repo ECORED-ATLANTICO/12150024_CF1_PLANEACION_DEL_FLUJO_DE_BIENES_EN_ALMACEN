@@ -197,22 +197,166 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Tipos de almacén',
+      referencia:
+        'Cadena de Suministro Interna. (2023). Tipos de almacenes. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=imhhp3VUYuA',
+    },
+    {
+      tema: 'Almacén',
+      referencia:
+        'Brain Logistic. (2022). Almacenes: Concepto de almacén. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=BIA7pl-zM0Q',
+    },
+    {
+      tema: 'Operación de almacén',
+      referencia:
+        'Brain Logistic. (2020). Procesos básicos de un almacén. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=XlU1UFvbpj4',
+    },
+    {
+      tema: 'Movimientos de almacén',
+      referencia:
+        'Datisa. (2021). Tipos de movimientos de almacén. Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=OLtioc-7r8w',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'AGV',
+      significado:
+        'vehículo de guiado automático, robot autónomo para transporte interno en almacenes.',
+    },
+
+    {
+      termino: 'Almacén automatizado (AS/RS)',
+      significado:
+        'instalación que utiliza sistemas robóticos y software para gestionar inventarios con mínima intervención humana.',
+    },
+
+    {
+      termino: 'Blockchain',
+      significado:
+        'tecnología de registro inmutable para trazabilidad logística y autenticidad de productos.',
+    },
+
+    {
+      termino: 'Cadena de frío',
+      significado:
+        'proceso logístico que mantiene productos perecederos (ej. alimentos, medicamentos) en condiciones de temperatura controlada desde producción hasta distribución.',
+    },
+
+    {
+      termino: 'Cross-docking',
+      significado:
+        'estrategia logística donde las mercancías pasan directamente de recepción a despacho, sin almacenamiento prolongado.',
+    },
+
+    {
+      termino: 'Dark store',
+      significado:
+        'almacén dedicado exclusivamente a cumplir pedidos de comercio electrónico, sin atención al público. Operan para entregas ultrarrápidas (15-30 min).',
+    },
+
+    {
+      termino: 'Gestión de devoluciones',
+      significado:
+        'proceso de recibir, inspeccionar y reincorporar productos devueltos (logística inversa).',
+    },
+
+    {
+      termino: 'IoT',
+      significado:
+        'internet de las cosas, red de dispositivos interconectados para monitoreo en tiempo real.',
+    },
+
+    {
+      termino: 'Kitting',
+      significado:
+        'proceso de agrupar componentes específicos para ensamblaje o pedidos personalizados.',
+    },
+
+    {
+      termino: 'Packing',
+      significado:
+        'etapa de embalaje y etiquetado de productos antes del despacho.',
+    },
+
+    {
+      termino: 'Picking',
+      significado:
+        'proceso de selección y preparación de pedidos según órdenes de compra.',
+    },
+
+    {
+      termino: 'Normativa ADR',
+      sifnificado:
+        'regulaciones europeas para el transporte terrestre de mercancías peligrosas, aplicables en Colombia para garantizar seguridad y cumplimiento legal.',
+    },
+
+    {
+      termino: 'RFID',
+      sifnificado:
+        'es un sistema de almacenamiento y recuperación de datos remotos que usa dispositivos denominados etiquetas, tarjetas o transpondedores',
+    },
+
+    {
+      termino: 'Unitarización',
+      sifnificado:
+        'consolidación de carga en unidades (pallets, contenedores) para optimizar el transporte.',
+    },
+
+    {
+      termino: 'WMS',
+      sifnificado:
+        'sistema de gestión de almacenes, software para controlar inventarios y operaciones.',
+    },
+
+    {
+      termino: 'Unitarización',
+      sifnificado:
+        'proceso de agrupar mercancías sueltas en unidades más grandes (como palés o contenedores) para facilitar su manejo, transporte y almacenamiento.',
+    },
+
+    {
+      termino: 'Zonificación',
+      sifnificado:
+        'división del almacén en áreas según tipo de producto, rotación o peligrosidad.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Aula Centro de Formación. (2022). <em>Gestión de Almacén y Logística.</em>',
+      link:
+        'https://dl.dropboxusercontent.com/scl/fi/ucro9rrtkrv682y7s1qt6/Curso-Gesti-n-de-Almanc-n-y-Log-stica-Aula-Centro-Formaci-n.pdf?rlkey=azxypu2r27s5m21odlj9ymwys&dl=0',
+    },
+    {
+      referencia:
+        'AR Racking. (2024). <em>Tipos de almacenes: Características y diferencias.</em>',
+      link:
+        'https://www.ar-racking.com/co/blog/tipos-de-almacenes-caracteristicas-y-diferencias/',
+    },
+    {
+      referencia:
+        'Rajapack. (2024). <em>Tipos de almacenes: clasificación y características.</em>',
+      link:
+        'https://www.rajapack.es/blog-es/tipos-de-almacenes-clasificacion-y-caracteristicas',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje (SENA). (2021). Zajuna Semilla. 121523_2_Virtual-Coordinación de procesos logísticos.',
+      link: 'https://zajuna.sena.edu.co/zajuna/course/view.php?id=32450',
+    },
+    {
+      referencia:
+        'Universidad Tecnológica de Chile. (2017). <em>Logística y Distribución.</em>',
+      link:
+        'https://dl.dropboxusercontent.com/scl/fi/fj36tqqwn137olufh5mt9/15.-Log-stica-y-Distribucci-n-autor-Inacap.pdf?rlkey=in7otqa16lkpda014bvsmn5pd&dl=0',
     },
   ],
   creditos: [
@@ -220,14 +364,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -235,9 +380,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Nicolas Cruz Ríos',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Heydy Cristina González García',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -245,19 +395,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Luis Gabriel Urueta',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Fabio Fonseca Arguelles',
+          cargo: 'Desarrollador <i>full stack junior</i>',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Nelson Ivan Vera Briceño',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -265,14 +415,24 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'María Fernanda Morales Angulo',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Jonathan Adie Villafañe',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Jairo Luis Valencia Ebratt',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
