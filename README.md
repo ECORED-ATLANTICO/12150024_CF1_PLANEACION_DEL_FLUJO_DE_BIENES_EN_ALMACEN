@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/ECORED-BASE-REPO/](https://ecored-atlantico.github.io/ECORED-BASE-REPO/)
+[https://ecored-atlantico.github.io/12150024_CF1_PLANEACION_DEL_FLUJO_DE_BIENES_EN_ALMACEN](https://ecored-atlantico.github.io/12150024_CF1_PLANEACION_DEL_FLUJO_DE_BIENES_EN_ALMACEN/#)
 
 #
 
