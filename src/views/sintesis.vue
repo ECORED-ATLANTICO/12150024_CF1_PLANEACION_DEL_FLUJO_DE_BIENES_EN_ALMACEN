@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum.
+    p A continuación, se describe una visión general sobre los aspectos clave del desarrollo de los fundamentos del flujo de bienes. Comienza con el concepto del flujo de bienes y su normativa. Seguidamente, se hace referencia a las generalidades de los bienes, sus tipos y fichas técnicas correspondientes. Por otro lado, se hace mención a los almacenes, las generalidades, sus características, los tipos existentes y las funciones. Incluye lo referente a los diferentes procesos operativos que se ejecutan en almacén. Finalmente, se abordan los movimientos que realizan en el almacén, las características y los tipos existentes.
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="En la síntesis del componente formativo 'Fundamentos del flujo de bienes' ofrece una visión general de los bienes y flujo, los almacenes, los procesos operativos y movimientos que se ejecutan en el almacén durante el flujo de bienes.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

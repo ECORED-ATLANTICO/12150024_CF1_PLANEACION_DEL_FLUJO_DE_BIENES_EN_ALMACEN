@@ -54,74 +54,74 @@
     .row.justify-content-center
       .col-xl-8
         PasosA.color-primario.mb-5(tipo="n")
-          .row.align-items-center
-            .col-md-2
+          .row.align-items-center.justify-content-center
+            .col-6.col-sm-2
               figure
-                img(src='@/assets/curso/temas/tema2/6.png', alt='Imagen decorativa')
+                img.mb-4.mb-md-0(src='@/assets/curso/temas/tema2/6.png', alt='Imagen decorativa')
             .col-md-10.mb-4.mb-md-0
               h5 Tangibilidad
               p Los bienes pueden ser tangibles (productos físicos) o intangibles (servicios asociados), siendo los tangibles los que requieren manejo físico en la cadena logística.
 
-          .row.align-items-center
+          .row.align-items-center.justify-content-center
             .col-md-10.text-start
               h5 Valor económico
               p Poseen un valor económico que justifica su producción, almacenamiento, transporte y distribución, lo que influye en la prioridad y control que se les da en la gestión logística.
-            .col-md-2.mb-4.mb-md-0
+            .col-6.col-sm-2.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema2/7.png', alt='Imagen decorativa')
+                img.mb-4.mb-md-0(src='@/assets/curso/temas/tema2/7.png', alt='Imagen decorativa')
                 
-          .row.align-items-center
-            .col-md-2
+          .row.align-items-center.justify-content-center
+            .col-6.col-sm-2
               figure
-                img(src='@/assets/curso/temas/tema2/8.png', alt='Imagen decorativa')
+                img.mb-4.mb-md-0(src='@/assets/curso/temas/tema2/8.png', alt='Imagen decorativa')
             .col-md-10.mb-4.mb-md-0
               h5 Estado físico
               p Se presentan en diferentes estados: sólidos, líquidos o gaseosos, lo que determina las condiciones específicas para su almacenamiento y transporte.
 
-          .row.align-items-center
+          .row.align-items-center.justify-content-center
             .col-md-10.text-start
               h5 Durabilidad
               p Pueden ser perecederos o no perecederos, lo que afecta la necesidad de almacenamiento especializado y rapidez en la distribución.
-            .col-md-2.mb-4.mb-md-0
+            .col-6.col-sm-2.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema2/9.png', alt='Imagen decorativa')
+                img.mb-4.mb-md-0(src='@/assets/curso/temas/tema2/9.png', alt='Imagen decorativa')
 
-          .row.align-items-center
-            .col-md-2
+          .row.align-items-center.justify-content-center
+            .col-6.col-sm-2
               figure
-                img(src='@/assets/curso/temas/tema2/10.png', alt='Imagen decorativa')
+                img.mb-4.mb-md-0(src='@/assets/curso/temas/tema2/10.png', alt='Imagen decorativa')
             .col-md-10.mb-4.mb-md-0
               h5 Fragilidad
               p Algunos bienes requieren manejo cuidadoso debido a su fragilidad (como vidrio o productos electrónicos), implicando embalajes y procesos logísticos especiales.
 
-          .row.align-items-center
+          .row.align-items-center.justify-content-center
             .col-md-10.text-start
               h5 Volumen y peso
               p Las dimensiones y peso influyen en la selección de medios y equipos para su manipulación, almacenamiento y transporte.
-            .col-md-2.mb-4.mb-md-0
+            .col-6.col-sm-2.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema2/11.png', alt='Imagen decorativa')
+                img.mb-4.mb-md-0(src='@/assets/curso/temas/tema2/11.png', alt='Imagen decorativa')
 
-          .row.align-items-center
-            .col-md-2
+          .row.align-items-center.justify-content-center
+            .col-6.col-sm-2
               figure
-                img(src='@/assets/curso/temas/tema2/12.png', alt='Imagen decorativa')
+                img.mb-4.mb-md-0(src='@/assets/curso/temas/tema2/12.png', alt='Imagen decorativa')
             .col-md-10.mb-4.mb-md-0
               h5 Peligrosidad
               p Bienes que presentan riesgos (químicos, inflamables, tóxicos) necesitan cumplir con normativas específicas para garantizar seguridad en su manejo y transporte.
 
-          .row.align-items-center
+          .row.align-items-center.justify-content-center
             .col-md-10.text-start
               h5 Rotación
               p La frecuencia con la que se mueven o venden los bienes afecta la gestión del inventario y la planificación logística.
-            .col-md-2.mb-4.mb-md-0
+            .col-6.col-sm-2.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema2/13.png', alt='Imagen decorativa')
+                img.mb-4.mb-md-0(src='@/assets/curso/temas/tema2/13.png', alt='Imagen decorativa')
 
-          .row.align-items-center
-            .col-md-2
+          .row.align-items-center.justify-content-center
+            .col-6.col-sm-2
               figure
-                img(src='@/assets/curso/temas/tema2/14.png', alt='Imagen decorativa')
+                img.mb-4.mb-md-0(src='@/assets/curso/temas/tema2/14.png', alt='Imagen decorativa')
             .col-md-10.mb-4.mb-md-0
               h5 Presentación y embalaje
               p Pueden ser a granel, unitarizados o en contenedores, lo que impacta en la eficiencia del manejo y transporte.
@@ -300,22 +300,22 @@
             td Corrosivos  (Clase 8).
             td Artículos susceptibles a daños por impacto o vibración.
           tr(style="background-color: #F4F5F8;")
-            td(rowspan=2) <strong>Por demanda y rotación.</strong>
-            td(style="background-color: #FFFFFF;") De alta rotación.
-            td(style="background-color: #FFFFFF;") Productos de consumo masivo con venta rápida.
+            td(rowspan=2) <strong>Por tamaño y peso.</strong>
+            td(style="background-color: #FFFFFF;") Voluminosos.
+            td(style="background-color: #FFFFFF;") Productos que ocupan mucho espacio.
             td(style="background-color: #FFFFFF;")            
               ul.checklist
-                li Agua embotellada.
-                li Productos de higiene personal.
-            td(style="background-color: #FFFFFF;") Necesitan reposición constante y ubicación estratégica en almacenes.
+                li Maquinaria industrial.
+                li Vehículos.
+            td(style="background-color: #FFFFFF;") Requieren transporte especializado y espacios de almacenaje amplios.
           tr(style="background-color: #F4F5F8;")
-            td De baja rotación.
-            td Productos con demanda esporádica o estacional.
+            td Alto peso.
+            td Productos con densidad elevada.
             td            
               ul.checklist
-                li Equipos médicos especializados.
-                li Repuestos para maquinaria.
-            td Gestión por pedido <em>(Make-to-Order)</em> para evitar exceso de inventario.
+                li Bloques de acero.
+                li Contenedores llenos de líquidos.
+            td Necesitan equipos de manipulación especiales (grúas, montacargas reforzados).
 
     Separador
     #t_2_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2

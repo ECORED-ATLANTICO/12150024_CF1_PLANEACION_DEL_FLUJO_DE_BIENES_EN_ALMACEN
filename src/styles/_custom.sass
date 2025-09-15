@@ -399,3 +399,43 @@ figcaption
       .col-xl-9
         flex: 0 0 auto
         width: 62%
+
+.accesibilidad
+  z-index: 3
+
+.pasos-a__circle
+  border: 6px solid #FE8849
+  background-color: #FFFFFF !important
+  div
+    color: #12263F !important
+
+.tarjeta-modificada
+  position: relative
+  border: 6px solid #FE8849
+  background-color: #FFFFFF
+  @media (min-width: 1024px)
+    min-width: 522px
+    max-height: 234px
+
+  &__img-wrapper
+    position: absolute
+    top: -6px
+    left: 20px
+    transform: translateX(-100%)
+    pointer-events: none
+
+  &__title
+    color: #FE8849
+    font-size: 20px
+  
+.img-infografica__item__dot:before, .img-infografica__item__dot:after,
+  background-color: transparent !important
+.img-infografica__item__numero,
+  color: red !important
+
+.img-infografica__card
+  top: 0% !important
+  left: 50% !important
+  transform: translateX(-50%)
+  @media (min-width: 1024px)
+    top: 30% !important

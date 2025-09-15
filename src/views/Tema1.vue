@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
+      h1 Flujo de bienes
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
@@ -28,11 +28,41 @@
 
     .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center.z-2.mb-5
-      .col-md-8
+      .col-xl-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
           span Elementos clave en el flujo de bienes
-        img(data-aos="fade-up")(src='@/assets/curso/temas/tema1/3.svg', alt='Se detalla en la función de los anillos: anillos de compresión, anillos de aceite y elemento eléctrico.')
+        ImagenInfografica.color-primario
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/3.svg', alt='')
+
+          .tarjeta-modificada.p-3.ps-lg-5.rounded-4(x="27.5%" y="88.2%" numero="+")
+            .tarjeta-modificada__img-wrapper.d-none.d-lg-block
+              img(src='@/assets/curso/temas/tema1/11.png', alt='Imagen de un mecánico')(data-aos="fade-up")
+            .tarjeta-content-wrapper
+              .tarjeta-modificada__title.h5.mb-3 Movimiento físico de mercancías
+              ul.checklist.mb-0
+                li Incluye actividades como carga, descarga, transporte interno, ubicación en estanterías y preparación para despacho.
+                li.pb-0 Se rige por principios de ergonomía y eficiencia para minimizar tiempos muertos y daños.
+
+          .tarjeta-modificada.p-3.ps-lg-5.rounded-4(x="54.3%" y="88.2%" numero="+")
+            .tarjeta-modificada__img-wrapper.d-none.d-lg-block
+              img(src='@/assets/curso/temas/tema1/12.png', alt='Imagen de un mecánico')(data-aos="fade-up")
+            .tarjeta-content-wrapper
+              .tarjeta-modificada__title.h5.mb-3 Gestión documental y trazabilidad
+              ul.checklist.mb-0
+                li Todo movimiento debe registrarse en sistemas de inventario.
+                li.pb-0 Documentos clave: órdenes de compra, albaranes, facturas, guías de remisión y registros de stock.
+
+          .tarjeta-modificada.p-3.ps-lg-5.rounded-4(x="80%" y="88.2%" numero="+")
+            .tarjeta-modificada__img-wrapper.d-none.d-lg-block
+              img(src='@/assets/curso/temas/tema1/13.png', alt='Imagen de un mecánico')(data-aos="fade-up")
+            .tarjeta-content-wrapper
+              .tarjeta-modificada__title.h5.mb-3 Optimización de espacio y recursos
+              ul.checklist.mb-0
+                li Uso estratégico de layouts de almacén por ejemplo, método FIFO (first in, first out) o LIFO (last in, first out). 
+                li.pb-0 Implementación de sistemas de almacenaje como estanterías dinámicas, racks selectivos o compactos.
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
     p.mb-5 <strong>El flujo eficiente de los bienes contribuye a:</strong>
@@ -71,7 +101,7 @@
     Separador
 
     #t_1_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
-      h3 1.2	Concepto
+      h3 1.2	Normativa
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4.mb-lg-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/8.jpg')})`}"
