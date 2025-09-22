@@ -137,7 +137,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/15.png', alt='Imagen de un mecánico')(data-aos="fade-up")
       .col-xl-8.mb-3.mb-lg-0
-        SlyderF(columnas="col-md-6")
+        SlyderF(columnas="col-lg-6")
           .tarjeta.tarjeta--blanca.px-4.pt-5.factores-slider__tarjeta
             .row.justify-content-center.mb-3
               .col-7
@@ -153,13 +153,13 @@
           .tarjeta.tarjeta--blanca.px-4.pt-5.factores-slider__tarjeta
             .row.justify-content-center.mb-3
               .col-7
-                img.factores-slider__icon.mb-4(src='@/assets/curso/temas/tema2/15.png' alt='Ilustacion de acompañamiento')  
+                img.factores-slider__icon.mb-4(src='@/assets/curso/temas/tema2/18.png' alt='Ilustacion de acompañamiento')  
             p.mb-4.mb-5.text-center Disminuir costos previniendo daños y gestionando el inventario de manera eficiente.
 
           .tarjeta.tarjeta--blanca.px-4.pt-5.factores-slider__tarjeta
             .row.justify-content-center.mb-3
               .col-7
-                img.factores-slider__icon.mb-4(src='@/assets/curso/temas/tema2/15.png' alt='Ilustacion de acompañamiento')  
+                img.factores-slider__icon.mb-4(src='@/assets/curso/temas/tema2/19.png' alt='Ilustacion de acompañamiento')  
             p.mb-4.mb-5.text-center Cumplir con las normativas vigentes, especialmente en el manejo de bienes peligrosos o productos perecederos.
 
     .cajon.color-acento-contenido.p-4.mb-4.mb-lg-5
@@ -263,7 +263,7 @@
               ul.checklist
                 li Frutas y verduras frescas.
                 li Vacunas y medicamentos termolábiles.
-            td Necesitan cadena de frío (2-8 °C o congelación) y transporte rápido.
+            td Necesitan cadena de frío (2 ºC - 8 °C o congelación) y transporte rápido.
           tr(style="background-color: #FFFFFF;")
             td No perecederos.
             td Productos que no se deterioran rápidamente.
@@ -361,7 +361,7 @@
               .col-2.col-xl-1.d-none.d-sm-block
                 img.w-53.w-xl-100(src="@/assets/curso/temas/tema2/waves.svg")
               .col-sm-10.col-xl-11
-                p.mb-0 <strong>Nota</strong>: Las fichas técnicas deben actualizarse periódicamente y estar disponibles en mínimo dos idiomas para operaciones internacionales. Se recomienda la implementación del formato digital con código QR para acceso rápido en almacenes y puertos.
+                p.mb-0 <strong>Nota</strong>: las fichas técnicas deben actualizarse periódicamente y estar disponibles en mínimo dos idiomas para operaciones internacionales. Se recomienda la implementación del formato digital con código QR para acceso rápido en almacenes y puertos.
 
     p.mb-4 A continuación, se presenta una estructura general recomendada para la elaboración de las fichas técnicas.
 

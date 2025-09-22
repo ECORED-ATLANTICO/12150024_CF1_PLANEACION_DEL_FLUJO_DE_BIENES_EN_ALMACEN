@@ -47,13 +47,13 @@
           div(titulo="Trazabilidad")
             p.ps-5.mb-0 Cada movimiento debe registrarse mediante sistemas de gestión para garantizar el control de inventarios y evitar pérdidas.
           div(titulo="Eficiencia en el flujo")
-            p.ps-5.mb-0 los movimientos deben optimizarse para reducir tiempos y costos, evitando cuellos de botella y maximizando el uso del espacio.
+            p.ps-5.mb-0 Los movimientos deben optimizarse para reducir tiempos y costos, evitando cuellos de botella y maximizando el uso del espacio.
           div(titulo="Seguridad")
-            p.ps-5.mb-0 las operaciones deben realizarse bajo normas de seguridad para proteger tanto a los trabajadores como a los bienes.
+            p.ps-5.mb-0 Las operaciones deben realizarse bajo normas de seguridad para proteger tanto a los trabajadores como a los bienes.
           div(titulo="Flexibilidad")
-            p.ps-5.mb-0 el almacén debe adaptarse a cambios en la demanda, estacionalidad o nuevos bienes sin afectar su operatividad.
+            p.ps-5.mb-0 El almacén debe adaptarse a cambios en la demanda, estacionalidad o nuevos bienes sin afectar su operatividad.
           div(titulo="Integración tecnológica")
-            p.ps-5.mb-0 el uso de automatización y tecnologías como códigos de barras o RFID es cada vez más común para controlar y agilizar los movimientos.
+            p.ps-5.mb-0 El uso de automatización y tecnologías como códigos de barras o RFID es cada vez más común para controlar y agilizar los movimientos.
 
     Separador
 
@@ -75,8 +75,8 @@
             ul.checklist
               li <strong>Entradas (recepciones)</strong>: descarga de mercancías, verificación de cantidad y calidad, registro en sistemas de gestión (WMS/ERP).
               li <strong>Almacenamiento (ubicación)</strong>: colocación en estanterías, bloques o zonas específicas, gestión por rotación.
-              li <strong>Movimientos internos</strong>: reubicación de productos (reabastecimiento, consolidación), cross-docking (distribución directa sin almacenaje prolongado).
-              li <strong>Salidas (expediciones)</strong>:	picking (preparación de pedidos), embalaje y verificación final, carga en transporte para distribución.
+              li <strong>Movimientos internos</strong>: reubicación de productos (reabastecimiento, consolidación), <em>cross-docking</em> (distribución directa sin almacenaje prolongado).
+              li <strong>Salidas (expediciones)</strong>:	<em>picking</em> (preparación de pedidos), embalaje y verificación final, carga en transporte para distribución.
           .col-sm-8.col-lg-4.col-xl-3
             figure
               img(src='@/assets/curso/temas/tema5/5.png', alt='Imagen decorativa')

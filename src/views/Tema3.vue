@@ -8,7 +8,7 @@
       h1 Almacén
 
     .fullwidth-bg.fullwidth-bg--1
-    p.mb-4.mb-lg-5.z-2 Adentrémonos en el mundo del almacenaje con la siguiente reflexión, realizada por la empresa Rajapack:
+    p.mb-4.mb-lg-5.z-2 Adentrémonos en el mundo del almacenaje con la siguiente reflexión, realizada por la empresa <em>Rajapack</em>:
 
     .bg-fondo-2.mb-5.rounded-4.overflow-hidden.z-2
       .p-4.p-lg-2
@@ -18,10 +18,12 @@
               img.w-305(src="@/assets/curso/temas/tema3/1.png", data-aos="zoom-in")
           .col-lg-7(data-aos="fade-left")
             .row.align-items-center
-              .col-sm-10.col-xl-11
-                i.fas.fa-quote-left
-                p ¿Qué sería del mundo de la logística sin el almacén? Este lugar es esencial, ya que en él se organizan y agrupan los productos antes de su distribución o su uso. Sin embargo, no todos los almacenes son iguales y cada uno está diseñado para satisfacer una necesidad específica.
-                i.fas.fa-quote-right
+              .col-xl-11
+                .bloque-texto-b.p-4
+                  .bloque-texto-b__texto
+                    i.fas.fa-quote-left
+                    p.mb-0 ¿Qué sería del mundo de la logística sin el almacén? Este lugar es esencial, ya que en él se organizan y agrupan los productos antes de su distribución o su uso. Sin embargo, no todos los almacenes son iguales y cada uno está diseñado para satisfacer una necesidad específica.
+                    i.fas.fa-quote-right
 
     Separador
 
@@ -47,7 +49,7 @@
       .col-auto
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 3.
-          span Línea de tiempo de las redes sociales
+          span Características del almacén
         img.d-sm-none(data-aos="fade-up")(src='@/assets/curso/temas/tema3/3-mob.svg', alt='Se detalla en la función de los anillos: anillos de compresión, anillos de aceite y elemento eléctrico.')
         img.d-none.d-sm-block(data-aos="fade-up")(src='@/assets/curso/temas/tema3/3.svg', alt='Se detalla en la función de los anillos: anillos de compresión, anillos de aceite y elemento eléctrico.')
         figcaption <strong>Fuente:</strong> SENA, 2025.
@@ -60,7 +62,7 @@
     .row.justify-content-center.align-items-center.z-2
       .col-lg-5
         figure
-          img.mb-4.mb-lg-0(src="@/assets/curso/temas/tema3/2.png", data-aos="zoom-in")
+          img.mb-4.mb-lg-0(src="@/assets/curso/temas/tema3/4.png", data-aos="zoom-in")
       .col-lg-7
         p Conocer los diferentes tipos de almacenes dentro de la logística es fundamental para diseñar estrategias que optimicen el manejo, almacenamiento y distribución de mercancías. Esta comprensión permite asignar cada tipo de almacén a su función específica dentro de la cadena de suministro, facilitando una gestión más eficiente del inventario y reduciendo costos operativos.
         p.mb-0 <strong>Los almacenes se clasifican de acuerdo con varios criterios</strong>:
@@ -173,7 +175,7 @@
           .tarjeta.bg-gray.p-4(titulo="Almacén de comercio electrónico")
             figure
               img.mb-4(data-aos="fade-up")(src='@/assets/curso/temas/tema3/19.png', alt='imagen decorativa')
-            p Centros de cumplimiento de Amazon, Temu, etc. Almacenes dark store para entregas ultra rápidas (15-30 minutos).  
+            p Centros de cumplimiento de Amazon, Temu, etc. Almacenes <em>dark store</em> para entregas ultra rápidas (15-30 minutos).  
 
   
     .fullwidth-bg.fullwidth-bg--1
@@ -222,10 +224,10 @@
                 td Recepción de bienes. 
                 td(colspan=2) Verificación de cantidades y calidad.<br>Registro en el sistema (WMS/ERP).               
               tr(style="background-color: #F4F5F8;")
-                td Almacenamiento 
+                td Almacenamiento.
                 td(colspan=2) Ubicación en <em>racks</em>, estanterías o zonas específicas.<br> Control de condiciones (temperatura, humedad).
               tr(style="background-color: #FFFFFF;")
-                td Gestión de inventarios
+                td Gestión de inventarios.
                 td(colspan=2) Control de <em>stock</em>. Conteos cíclicos para evitar mermas.
               tr(style="background-color: #F4F5F8;")
                 td Preparación de pedidos (<em>Picking & Packing</em>).
@@ -235,20 +237,20 @@
                 td(colspan=2) Control de <em>stock</em>.<br> Conteos cíclicos para evitar mermas.
               tr(style="background-color: #F4F5F8;")
                 td(rowspan=3) <strong>Funciones de valor añadido</strong>
-                td <em>Kitting</em>
+                td <em>Kitting.</em>
                 td(colspan=2) Agrupar componentes para ensamblaje posterior.              
               tr(style="background-color: #FFFFFF;")
                 td Etiquetado y personalización.
                 td(colspan=2) Preparación de productos para clientes específicos.
               tr(style="background-color: #F4F5F8;")
-                td Servicios postventa
+                td Servicios postventa.
                 td(colspan=2) Gestión de devoluciones.
               tr(style="background-color: #FFFFFF;")
                 td(rowspan=4) <strong>Funciones estratégicas</strong>
                 td Reducción de costos.
                 td(colspan=2) Optimización de espacio y recursos.             
               tr(style="background-color: #F4F5F8;")
-                td Control de calidad
+                td Control de calidad.
                 td(colspan=2) Inspección de los productos para garantizar que cumplen con los estándares requeridos.
               tr(style="background-color: #FFFFFF;")
                 td Mejora del servicio al cliente.

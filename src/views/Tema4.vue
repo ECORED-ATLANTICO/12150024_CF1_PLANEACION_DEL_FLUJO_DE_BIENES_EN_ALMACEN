@@ -34,18 +34,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 4.
           span Objetivos del proceso operativo de almacén 
-        .row.align-items-center.justify-content-center.mb-2.mx-0.bg-grandiente-azul
-          .col-lg-7.ps-4
-            ul.checklist
-              li Garantizar la disponibilidad de productos.
-              li Optimizar espacios y recursos.
-              li El cumplimiento de la Política Energética, los objetivos y metas energéticas.
-              li Minimizar costos operativos.
-              li Mantener la integridad de los inventarios
-
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/temas/tema4/3.png', alt='Imagen decorativa')(data-aos="fade-right")
+          img(src='@/assets/curso/temas/tema4/26.svg', alt='En la figura se presentan los objetivos del proceso operativo de almacén.')(data-aos="fade-right")
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
     Separador
@@ -119,26 +108,26 @@
             tbody
               tr(style="background-color: #FFFFFF;")
                 td <strong>Sistemas de gestión de almacenes (WMS).</strong>
-                td Gestión de inventario en tiempo real con actualización automática de stock.<br>ptimización de rutas de picking mediante algoritmos inteligentes.<br>estión de ubicaciones dinámica basada en rotación de productos. 
+                td Gestión de inventario en tiempo real con actualización automática de <em>stock</em>. <br>Optimización de rutas de <em>picking</em> mediante algoritmos inteligentes. <br>Gestión de ubicaciones dinámica basada en rotación de productos. 
                 td(colspan=2) Reducción de hasta 30 % en tiempos de preparación de pedidos. <br>Precisión de inventario superior al 99.5 %. <br>Disminución de 25-40 % en costos operativos.               
               tr(style="background-color: #F4F5F8;")
                 td(rowspan=2) <strong>Automatización y robótica.</strong>
                 td
-                  h5 Sistemas AS/RS (Automated Storage and Retrieval Systems): 
-                  p Almacenamiento vertical automatizado.<br> Recuperación guiada por software.<br> Transporte autónomo de carga. 
+                  h5 Sistemas AS/RS <em>(Automated Storage and Retrieval Systems)</em>: 
+                  p Almacenamiento vertical automatizado.<br> Recuperación guiada por <em>software</em>.<br> Transporte autónomo de carga. 
                 td(colspan=2) Ahorro de espacio.<br>Reducción de errores.<br>Productividad continua.<br>Elimina accidentes por manipulación. Eficiencia energética.  
               tr(style="background-color: #FFFFFF;")
                 td
                   h5 Robots móviles Autónomos: 
-                  p Navegación inteligente.<br>Picking autónomo.<br>Optimización de rutas en tiempo real. 
+                  p Navegación inteligente.<br><em>Picking</em> autónomo.<br>Optimización de rutas en tiempo real. 
                 td(colspan=2) Flexibilidad operativa.<br>Rentabilidad comprobada.<br>Adaptabilidad.<br>Métricas de desempeño. 
               tr(style="background-color: #FFFFFF;")
                 td(rowspan=3) <strong>Tecnologías 4.0</strong>
                 td(style="background-color: #F4F5F8;") Internet de las cosas 
-                td(style="background-color: #F4F5F8;")(colspan=2) Sensores inteligentes para monitoreo de condiciones ambientales, control de equipos y gestión de flujos.<br>Dispositivos de realidad aumentada para picking. 
+                td(style="background-color: #F4F5F8;")(colspan=2) Sensores inteligentes para monitoreo de condiciones ambientales, control de equipos y gestión de flujos.<br>Dispositivos de realidad aumentada para <em>picking</em>. 
               tr(style="background-color: #FFFFFF;")
                 td <em>Blockchain</em> para trazabilidad.
-                td(colspan=2) Registro inmutable de movimientos de bienes.<br>Certificación de origen y autenticidad de productos.<br>Smart contracts para automatizar procesos logísticos. 
+                td(colspan=2) Registro inmutable de movimientos de bienes.<br>Certificación de origen y autenticidad de productos.<br><em>Smart contracts</em> para automatizar procesos logísticos. 
               tr(style="background-color: #F4F5F8;")
                 td Inteligencia artificial y <em>Machine Learning</em>. 
                 td(colspan=2) Optimización dinámica de layouts de almacén.<br>Detección de anomalías: Identificación de patrones de error.<br>Sistemas autónomos de toma de decisiones. 

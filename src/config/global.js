@@ -231,100 +231,84 @@ export default {
       significado:
         'vehículo de guiado automático, robot autónomo para transporte interno en almacenes.',
     },
-
     {
       termino: 'Almacén automatizado (AS/RS)',
       significado:
-        'instalación que utiliza sistemas robóticos y software para gestionar inventarios con mínima intervención humana.',
+        'instalación que utiliza sistemas robóticos y <em>software</em> para gestionar inventarios con mínima intervención humana.',
     },
-
     {
       termino: 'Blockchain',
       significado:
         'tecnología de registro inmutable para trazabilidad logística y autenticidad de productos.',
     },
-
     {
       termino: 'Cadena de frío',
       significado:
         'proceso logístico que mantiene productos perecederos (ej. alimentos, medicamentos) en condiciones de temperatura controlada desde producción hasta distribución.',
     },
-
     {
-      termino: 'Cross-docking',
+      termino: '<em>Cross-docking</em>',
       significado:
         'estrategia logística donde las mercancías pasan directamente de recepción a despacho, sin almacenamiento prolongado.',
     },
-
     {
-      termino: 'Dark store',
+      termino: '<em>Dark store</em>',
       significado:
         'almacén dedicado exclusivamente a cumplir pedidos de comercio electrónico, sin atención al público. Operan para entregas ultrarrápidas (15-30 min).',
     },
-
     {
       termino: 'Gestión de devoluciones',
       significado:
         'proceso de recibir, inspeccionar y reincorporar productos devueltos (logística inversa).',
     },
-
     {
       termino: 'IoT',
       significado:
         'internet de las cosas, red de dispositivos interconectados para monitoreo en tiempo real.',
     },
-
     {
-      termino: 'Kitting',
+      termino: '<em>Kitting</em>',
       significado:
         'proceso de agrupar componentes específicos para ensamblaje o pedidos personalizados.',
     },
-
     {
-      termino: 'Packing',
+      termino: '<em>Packing</em>',
       significado:
         'etapa de embalaje y etiquetado de productos antes del despacho.',
     },
-
     {
-      termino: 'Picking',
+      termino: '<em>Picking</em>',
       significado:
         'proceso de selección y preparación de pedidos según órdenes de compra.',
     },
-
     {
       termino: 'Normativa ADR',
-      sifnificado:
+      significado:
         'regulaciones europeas para el transporte terrestre de mercancías peligrosas, aplicables en Colombia para garantizar seguridad y cumplimiento legal.',
     },
-
     {
       termino: 'RFID',
-      sifnificado:
+      significado:
         'es un sistema de almacenamiento y recuperación de datos remotos que usa dispositivos denominados etiquetas, tarjetas o transpondedores',
     },
-
     {
       termino: 'Unitarización',
-      sifnificado:
+      significado:
         'consolidación de carga en unidades (pallets, contenedores) para optimizar el transporte.',
     },
-
     {
       termino: 'WMS',
-      sifnificado:
-        'sistema de gestión de almacenes, software para controlar inventarios y operaciones.',
+      significado:
+        'sistema de gestión de almacenes, <em>software</em> para controlar inventarios y operaciones.',
     },
-
     {
       termino: 'Unitarización',
-      sifnificado:
+      significado:
         'proceso de agrupar mercancías sueltas en unidades más grandes (como palés o contenedores) para facilitar su manejo, transporte y almacenamiento.',
     },
-
     {
       termino: 'Zonificación',
-      sifnificado:
+      significado:
         'división del almacén en áreas según tipo de producto, rotación o peligrosidad.',
     },
   ],
@@ -346,11 +330,6 @@ export default {
         'Rajapack. (2024). <em>Tipos de almacenes: clasificación y características.</em>',
       link:
         'https://www.rajapack.es/blog-es/tipos-de-almacenes-clasificacion-y-caracteristicas',
-    },
-    {
-      referencia:
-        'Servicio Nacional de Aprendizaje (SENA). (2021). Zajuna Semilla. 121523_2_Virtual-Coordinación de procesos logísticos.',
-      link: 'https://zajuna.sena.edu.co/zajuna/course/view.php?id=32450',
     },
     {
       referencia:
@@ -380,13 +359,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nicolas Cruz Ríos',
+          nombre: 'Yezid Arturo Choperena Guerrero',
           cargo: 'Experto temático',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Heydy Cristina González García',
-          cargo: 'Evaluadora instruccional',
+          nombre: 'Jair Coll Gallardo',
+          cargo: 'Evaluador instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -395,8 +374,8 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta',
-          cargo: 'Diseñador web',
+          nombre: 'Antonio Vecino Valero',
+          cargo: 'Diseñador <i>web</i>',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -405,7 +384,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nelson Ivan Vera Briceño',
+          nombre: 'Alexander Rafael Acosta Bedoya',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -425,7 +404,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Jonathan Adie Villafañe',
+          nombre: 'Jonathan Adié Villafañe',
           cargo: 'Validador y vinculador de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },

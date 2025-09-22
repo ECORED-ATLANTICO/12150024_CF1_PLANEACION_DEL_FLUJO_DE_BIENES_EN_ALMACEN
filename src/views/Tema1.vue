@@ -35,7 +35,7 @@
         ImagenInfografica.color-primario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/3.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/3.png', alt='En la figura se presentan los elementos clave en el flujo de bienes.')
 
           .tarjeta-modificada.p-3.ps-lg-5.rounded-4(x="27.5%" y="88.2%" numero="+")
             .tarjeta-modificada__img-wrapper.d-none.d-lg-block
@@ -53,7 +53,7 @@
               .tarjeta-modificada__title.h5.mb-3 Gestión documental y trazabilidad
               ul.checklist.mb-0
                 li Todo movimiento debe registrarse en sistemas de inventario.
-                li.pb-0 Documentos clave: órdenes de compra, albaranes, facturas, guías de remisión y registros de stock.
+                li.pb-0 Documentos clave: órdenes de compra, albaranes, facturas, guías de remisión y registros de <em>stock</em>.
 
           .tarjeta-modificada.p-3.ps-lg-5.rounded-4(x="80%" y="88.2%" numero="+")
             .tarjeta-modificada__img-wrapper.d-none.d-lg-block
@@ -61,8 +61,8 @@
             .tarjeta-content-wrapper
               .tarjeta-modificada__title.h5.mb-3 Optimización de espacio y recursos
               ul.checklist.mb-0
-                li Uso estratégico de layouts de almacén por ejemplo, método FIFO (first in, first out) o LIFO (last in, first out). 
-                li.pb-0 Implementación de sistemas de almacenaje como estanterías dinámicas, racks selectivos o compactos.
+                li Uso estratégico de layouts de almacén por ejemplo, método FIFO (<em>first in, first out</em>) o LIFO (<em>last in, first out</em>). 
+                li.pb-0 Implementación de sistemas de almacenaje como estanterías dinámicas, <em>racks</em> selectivos o compactos.
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
     p.mb-5 <strong>El flujo eficiente de los bienes contribuye a:</strong>
@@ -73,7 +73,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/4.png', alt='Imagen de un mecánico')(data-aos="fade-up")
       .col-xl-8.mb-3.mb-lg-0
-        SlyderF(columnas="col-md-6")
+        SlyderF(columnas="col-lg-6")
           .tarjeta.tarjeta--blanca.px-4.pt-5.factores-slider__tarjeta
             .row.justify-content-center.mb-3
               .col-7
@@ -124,7 +124,7 @@
         tbody
           tr(style="background-color: #FFFFFF;")
             td(rowspan=3) <strong>Seguridad y salud laboral</strong>
-            td OSHA (Administración de Seguridad y Salud Ocupacional).
+            td OSHA (Administración de seguridad y salud ocupacional).
             td(colspan=2)              
               ul.checklist
                 li Establece estándares para: manipulación manual de cargas, uso de equipos de protección personal, operación segura de montacargas y maquinaria.
@@ -137,7 +137,7 @@
                 li Sistemas de control de acceso a almacenes.
                 li Gestión de riesgos en el flujo de mercancías.
           tr(style="background-color: #FFFFFF;")
-            td Directiva Europea 89/391/CEE (Prevención de Riesgos Laborales).
+            td Directiva Europea 89/391/CEE (Prevención de riesgos laborales).
             td(colspan=2) 
               ul.checklist
                 li Obligatoriedad de evaluaciones de riesgo en almacenes.
@@ -145,7 +145,7 @@
                 li Especificaciones sobre iluminación, señalización y vías de evacuación.
           tr(style="background-color: #F4F5F8;")
             td(rowspan=2) <strong>Calidad y gestión</strong>
-            td ISO 9001 (Sistemas de Gestión de Calidad).
+            td ISO 9001 (Sistemas de gestión de calidad).
             td(colspan=2)
               ul.checklist
                 li Requisitos para procesos de recepción y despacho.
@@ -155,7 +155,7 @@
             td Buenas Prácticas de Almacenamiento (BPA).
             td(colspan=2) 
               ul.checklist
-                li Guías específicas por sector: BPA para productos farmacéuticos (WHO-GDP), BPA para alimentos (FDA 21 CFR Part 110).
+                li Guías específicas por sector: BPA para productos farmacéuticos (<em>WHO-GDP</em>), BPA para alimentos (<em>FDA 21 CFR Part 110</em>).
                 li Requisitos de condiciones ambientales (temperatura, humedad).
 
     .row.justify-content-center.align-items-center.mb-5
