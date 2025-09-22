@@ -19,7 +19,7 @@
           .col-lg-7(data-aos="fade-left")
             .row.align-items-center
               .col-xl-11
-                .bloque-texto-b.p-4
+                .bloque-texto-b.p-4.pt-5
                   .bloque-texto-b__texto
                     i.fas.fa-quote-left
                     p.mb-0 ¿Qué sería del mundo de la logística sin el almacén? Este lugar es esencial, ya que en él se organizan y agrupan los productos antes de su distribución o su uso. Sin embargo, no todos los almacenes son iguales y cada uno está diseñado para satisfacer una necesidad específica.

@@ -34,7 +34,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 4.
           span Objetivos del proceso operativo de almacén 
-          img(src='@/assets/curso/temas/tema4/26.svg', alt='En la figura se presentan los objetivos del proceso operativo de almacén.')(data-aos="fade-right")
+        img.d-sm-none(data-aos="fade-up")(src='@/assets/curso/temas/tema4/26-mob.svg', alt='En la figura se presentan los objetivos del proceso operativo de almacén.')
+        img.d-none.d-sm-block(data-aos="fade-up")(src='@/assets/curso/temas/tema4/26.svg', alt='En la figura se presentan los objetivos del proceso operativo de almacén.')
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
     Separador
