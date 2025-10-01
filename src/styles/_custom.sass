@@ -430,10 +430,17 @@ figcaption
     color: #FE8849
     font-size: 20px
   
+.img-infografica__item
+  width: 5.5% !important
 .img-infografica__item__dot:before, .img-infografica__item__dot:after,
-  background-color: transparent !important
+  background-color: #FE8849!important
 .img-infografica__item__numero,
-  color: transparent !important
+  font-size: 100%
+  @media (min-width: 768px)
+    font-size: 20px
+  @media (min-width: 992px)
+    font-size: 30px
+  // color: transparent !important
 
 .img-infografica__card
   top: 0% !important

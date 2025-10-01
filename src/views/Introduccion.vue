@@ -26,8 +26,8 @@
           img.mb-4.mb-lg-0(data-aos="fade-up")(src="@/assets/curso/intro/2.png" alt="Imagen decorativa")
 
     .video.mb-2
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/hCZxnw4K5cw" title="Movilidad inteligente y circulación segura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen)
-    figcaption <strong>Video:</strong> Movilidad inteligente y circulación segura.
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/0gByazaOrBM" title="Fundamentos del flujo de bienes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen)
+    figcaption <strong>Video:</strong> Fundamentos del flujo de bienes.
 
 </template>
 
