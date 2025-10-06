@@ -67,8 +67,8 @@
 .banner-interno__fondo 
   background-image: url('../assets/curso/portada/banner-interno.png') !important
 
-figcaption
-  font-weight: normal
+figcaption, caption
+  font-weight: normal !important
 
 .bg-color-terciario-t20
   background-color: $color-terciario-t20
@@ -431,16 +431,14 @@ figcaption
     font-size: 20px
   
 .img-infografica__item
-  width: 5.5% !important
+  width: 7.5% !important
 .img-infografica__item__dot:before, .img-infografica__item__dot:after,
   background-color: #FE8849!important
 .img-infografica__item__numero,
-  font-size: 100%
+  font-size: 12px
+  color: $color-sistema-texto !important
   @media (min-width: 768px)
     font-size: 20px
-  @media (min-width: 992px)
-    font-size: 30px
-  // color: transparent !important
 
 .img-infografica__card
   top: 0% !important
@@ -448,3 +446,5 @@ figcaption
   transform: translateX(-50%)
   @media (min-width: 1024px)
     top: 30% !important
+  
+    

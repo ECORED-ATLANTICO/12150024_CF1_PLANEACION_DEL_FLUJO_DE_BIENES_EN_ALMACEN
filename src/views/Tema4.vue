@@ -33,7 +33,7 @@
       .col-lg-10.col-xl-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 4.
-          span Objetivos del proceso operativo de almacén 
+          span Objetivos de la operación de almacén 
         img.d-sm-none(data-aos="fade-up")(src='@/assets/curso/temas/tema4/26-mob.svg', alt='En la figura se presentan los objetivos del proceso operativo de almacén.')
         img.d-none.d-sm-block(data-aos="fade-up")(src='@/assets/curso/temas/tema4/26.svg', alt='En la figura se presentan los objetivos del proceso operativo de almacén.')
         figcaption <strong>Fuente:</strong> SENA, 2025.
@@ -79,16 +79,14 @@
             .row.justify-content-center.align-items-center
               .col-lg-11.mb-4.mb-lg-0.p-3
                 h5.mb-4 Gestión de devoluciones
-                p La logística inversa consiste en recibir, inspeccionar, clasificar y reincorporar o descartar productos devueltos por clientes o socios, siendo esencial en la cadena de suministro, especialmente en e-commerce, retail y sectores de fabricación.
+                p La logística inversa consiste en recibir, inspeccionar, clasificar y reincorporar o descartar productos devueltos por clientes o socios, siendo esencial en la cadena de suministro, especialmente en <em>e-commerce</em>, <em>retail</em> y sectores de fabricación.
             
             .row.justify-content-center.align-items-center
               .col-lg-11.mb-4.mb-lg-0.p-3
                 h5.mb-4 Control y gestión de inventarios.
                 p Proceso continuo de auditorías y recuentos para garantizar que existencias físicas coincidan con registros. El control de inventarios detecta desviaciones, previene faltantes o excesos y asegura precisión en la gestión eficiente del almacén.
 
-    Separador
-    #t_4_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
-      h3 4.3	Herramientas tecnológicas 
+    h3.graph-title.my-5(data-aos="fade-right") Herramientas tecnológicas 
 
     p.mb-4.mb-lg-5 Las tecnologías están transformando radicalmente la gestión de almacenes, sustituyendo métodos manuales por procesos mucho más ágiles, precisos y eficientes. A continuación, se presenta un análisis exhaustivo de las innovaciones tecnológicas que están remodelando la logística en este ámbito: 
 

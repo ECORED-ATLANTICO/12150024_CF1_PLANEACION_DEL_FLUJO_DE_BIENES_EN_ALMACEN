@@ -54,7 +54,7 @@
             p.ps-5.mb-0 El almacén debe adaptarse a cambios en la demanda, estacionalidad o nuevos bienes sin afectar su operatividad.
           div(titulo="Integración tecnológica")
             p.ps-5.mb-0 El uso de automatización y tecnologías como códigos de barras o RFID es cada vez más común para controlar y agilizar los movimientos.
-
+        figcaption.z-2 <strong>Fuente:</strong> SENA, 2025.
     Separador
 
     #t_5_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
@@ -68,7 +68,7 @@
         div.banner-text
           p.mb-0 Reconocer y diferenciar los tipos de movimientos dentro del almacén resulta fundamental para optimizar la administración del inventario y elevar la eficiencia operativa en toda la cadena logística. Al identificar y categorizar adecuadamente cada tipo de movimiento, se facilita la asignación precisa de recursos, se mejora la planificación del espacio y se minimizan los errores en la manipulación de mercancías. Esto se traduce en una reducción significativa de costos operativos y en la aceleración de los tiempos de entrega.
 
-    TabsC.color-acento-botones.mb-5
+    TabsC.color-acento-botones
       .py-3.py-md-4(titulo="Según la dirección de flujo")
         .row.align-items-center.justify-content-around
           .col-lg-8.mb-4.mb-md-0
@@ -90,7 +90,7 @@
           .col-sm-8.col-lg-4.col-xl-3
             figure
               img(src='@/assets/curso/temas/tema5/6.png', alt='Imagen decorativa')
-
+    figcaption.z-2 <strong>Fuente:</strong> SENA, 2025.
 
 </template>
 

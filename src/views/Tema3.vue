@@ -70,7 +70,7 @@
     .fullwidth-bg.fullwidth-bg--2
     h3.graph-title.my-5(data-aos="fade-right") Según su estructura
 
-    .row.justify-content-center.z-2.mb-4.mb-lg-5
+    .row.justify-content-center.z-2.mb-2
       .col-sm-10.col-lg-6.col-xl-5.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
@@ -87,6 +87,9 @@
           .crd_hover_txt--body.text-center
             h5.mb-3 Almacenes exteriores o descubiertos
             p.mb-0 Son áreas descubiertas dentro de un recinto delimitado, destinadas a almacenar bienes que no requieren protección especial contra factores ambientales.
+    .row.justify-content-center.mb-4.mb-lg-5.z-2
+      .col-lg-10
+        figcaption <strong>Fuente:</strong> tomado y adaptado de Tipos de almacenes: Características y diferencias, por AR <em>Racking</em>, 2025.
 
     h3.graph-title.my-5(data-aos="fade-right") Según su función en la cadena de suministro
     .row.justify-content-center.align-items-center.factores-slider.z-2.mb-4.mb-lg-5
@@ -94,7 +97,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/7.png', alt='Imagen de un mecánico')(data-aos="fade-up")
       .col-xl-8.conservas-slyder.p-4.rounded-2
-        .tarjeta.tarjeta--blanca
+        .tarjeta.tarjeta--blanca.mb-2
           SlyderA(tipo="b").p-2.p-lg-4
             .row.justify-content-center.align-items-center
               .col-lg-8.mb-4.mb-lg-0.p-3.p-sm-5
@@ -151,6 +154,8 @@
               .col-8.col-sm-6.col-lg-4
                 figure
                   img(data-aos="fade-up")(src='@/assets/curso/temas/tema3/14.png', alt='imagen decorativa')
+        
+          figcaption.z-2 <strong>Fuente:</strong> SENA, 2025.
 
 
     h3.graph-title.my-5(data-aos="fade-right") Según los tipos de bienes 
@@ -176,7 +181,7 @@
             figure
               img.mb-4(data-aos="fade-up")(src='@/assets/curso/temas/tema3/19.png', alt='imagen decorativa')
             p Centros de cumplimiento de Amazon, Temu, etc. Almacenes <em>dark store</em> para entregas ultra rápidas (15-30 minutos).  
-
+        figcaption.z-2 <strong>Fuente:</strong> SENA, 2025.
   
     .fullwidth-bg.fullwidth-bg--1
     h3.graph-title.my-5(data-aos="fade-right").z-2 Según el grado de automatización
@@ -192,7 +197,7 @@
             p.ps-5.mb-0 Utiliza sistemas robóticos y equipos programados para realizar tareas de almacenamiento, recuperación y transporte de mercancías con mínima intervención humana.
           div(titulo="Almacén inteligente")
             p.ps-5.mb-0 Va más allá de la automatización: integra <em>IoT, Big Data</em>, IA y computación en la nube para tomar decisiones en tiempo real y optimizar procesos de manera adaptativa.
-  
+        figcaption <strong>Fuente:</strong> tomado y adaptado de Tipos de almacenes: Características y diferencias, por AR <em>Racking</em>, 2025.
     Separador
     #t_3_4(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 3.4	Funciones

@@ -74,7 +74,7 @@ export default {
         {
           id: 3,
           texto:
-            'Un almacén es un espacio destinado únicamente al almacenamiento permanente de mercancías',
+            'Un almacén es un espacio destinado únicamente al almacenamiento permanente de mercancías.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -396,7 +396,7 @@ export default {
         {
           id: 17,
           texto:
-            'Los movimientos internos en un almacén incluyen el reabastecimiento y la consolidación de productos',
+            'Los movimientos internos en un almacén incluyen el reabastecimiento y la consolidación de productos.',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [

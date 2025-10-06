@@ -24,7 +24,7 @@
     .row.justify-content-center.z-2
       .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
         div.banner-text
-          p El flujo de bienes en almacén se refiere al movimiento físico y administrativo de mercancías dentro de un centro de distribución, abarcando desde su entrada hasta su salida. <strong>Elementos clave en el flujo de bienes</strong>:
+          p El flujo de bienes en almacén se refiere al movimiento físico y administrativo de mercancías dentro de un centro de distribución, abarcando desde su entrada hasta su salida.
 
     .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center.z-2.mb-5
@@ -37,7 +37,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/3.png', alt='En la figura se presentan los elementos clave en el flujo de bienes.')
 
-          .tarjeta-modificada.p-3.ps-lg-5.rounded-4(x="27.5%" y="88.2%" numero="+")
+          .tarjeta-modificada.p-3.ps-lg-5.rounded-4(x="54%" y="88%" numero="01")
             .tarjeta-modificada__img-wrapper.d-none.d-lg-block
               img(src='@/assets/curso/temas/tema1/11.png', alt='Imagen de un mecánico')(data-aos="fade-up")
             .tarjeta-content-wrapper
@@ -46,7 +46,7 @@
                 li Incluye actividades como carga, descarga, transporte interno, ubicación en estanterías y preparación para despacho.
                 li.pb-0 Se rige por principios de ergonomía y eficiencia para minimizar tiempos muertos y daños.
 
-          .tarjeta-modificada.p-3.ps-lg-5.rounded-4(x="54.3%" y="88.2%" numero="+")
+          .tarjeta-modificada.p-3.ps-lg-5.rounded-4(x="40%" y="40%" numero="02")
             .tarjeta-modificada__img-wrapper.d-none.d-lg-block
               img(src='@/assets/curso/temas/tema1/12.png', alt='Imagen de un mecánico')(data-aos="fade-up")
             .tarjeta-content-wrapper
@@ -55,7 +55,7 @@
                 li Todo movimiento debe registrarse en sistemas de inventario.
                 li.pb-0 Documentos clave: órdenes de compra, albaranes, facturas, guías de remisión y registros de <em>stock</em>.
 
-          .tarjeta-modificada.p-3.ps-lg-5.rounded-4(x="80%" y="88.2%" numero="+")
+          .tarjeta-modificada.p-3.ps-lg-5.rounded-4(x="100%" y="60%" numero="03")
             .tarjeta-modificada__img-wrapper.d-none.d-lg-block
               img(src='@/assets/curso/temas/tema1/13.png', alt='Imagen de un mecánico')(data-aos="fade-up")
             .tarjeta-content-wrapper

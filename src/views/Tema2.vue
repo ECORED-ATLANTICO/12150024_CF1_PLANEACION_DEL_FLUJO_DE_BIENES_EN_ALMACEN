@@ -23,7 +23,8 @@
         figure
           img.mb-4.mb-xl-0(src='@/assets/curso/temas/tema2/2.png', alt='Imagen de un mecánico')(data-aos="fade-up")
       .col-xl-7
-        p.mb-5 En el ámbito logístico, los bienes comprenden todos aquellos elementos, ya sean tangibles o intangibles, que poseen un valor económico y participan en procesos de producción, almacenamiento, transporte y distribución a lo largo de la cadena de suministro. Estos bienes pueden incluir desde materias primas y productos en proceso hasta artículos terminados o servicios vinculados a la administración de inventarios. En el ámbito logístico, los bienes comprenden todos aquellos elementos, ya sean tangibles o intangibles, que poseen un valor económico y participan en procesos de producción, almacenamiento, transporte y distribución a lo largo de la cadena de suministro. Estos bienes pueden incluir desde materias primas y productos en proceso hasta artículos terminados o servicios vinculados a la administración de inventarios.
+        p En el ámbito logístico, los bienes comprenden todos aquellos elementos, ya sean tangibles o intangibles, que poseen un valor económico y participan en procesos de producción, almacenamiento, transporte y distribución a lo largo de la cadena de suministro. Estos bienes pueden incluir desde materias primas y productos en proceso hasta artículos terminados o servicios vinculados a la administración de inventarios.
+        p.mb-5 La importancia de los bienes en logística radica en que:
         .row.align-items-stretch
           .col-md-4.mb-4.mb-md-0
             .numbered-card.rounded-bottom-5.rounded-start-0.px-4.py-3.me-3
@@ -256,30 +257,30 @@
                 li Repuestos para maquinaria.
             td Gestión por pedido <em>(Make-to-Order)</em> para evitar exceso de inventario.
           tr(style="background-color: #F4F5F8;")
-            td(rowspan=3) <strong>Por durabilidad.</strong>
-            td Perecederos.
-            td Productos con vida útil limitada que requieren condiciones especiales.
+            td(rowspan=3) <strong>Por naturaleza.</strong>
+            td Sólidos
+            td Objetos físicos que ocupan espacio.
             td            
               ul.checklist
-                li Frutas y verduras frescas.
-                li Vacunas y medicamentos termolábiles.
-            td Necesitan cadena de frío (2 ºC - 8 °C o congelación) y transporte rápido.
+                li Muebles.
+                li Ropa.
+            td Requieren gestión de espacio físico en almacenes y transporte.
           tr(style="background-color: #FFFFFF;")
-            td No perecederos.
-            td Productos que no se deterioran rápidamente.
+            td Líquidos.
+            td Productos cuya forma se adapta al recipiente que los contiene y fluyen con facilidad.
             td            
               ul.checklist
-                li Arroz y pastas secas.
-                li Productos electrónicos.
-            td Permiten almacenamiento prolongado en condiciones estándar.
+                li Químicos.
+                li Aceites.
+            td Requieren envases especiales y a menudo condiciones de temperatura o presión.
           tr(style="background-color: #F4F5F8;")
-            td Frágiles.
-            td Artículos susceptibles a daños por impacto o vibración.
+            td Gaseosos.
+            td Sustancias en estado gaseoso que necesitan envases presurizados para su contención, ya que tienden a expandirse.
             td            
               ul.checklist
-                li Vidrio y cristalería.
-                li Esculturas y obras de arte.
-            td Requieren embalaje especial (espumas, amortiguadores) y manipulación cuidadosa.
+                li Gases industriales.
+                li Nitrógeno.
+            td Se almacenan en cilindros o tanques.
           tr(style="background-color: #FFFFFF;")
             td(rowspan=4) <strong>Por peligrosidad.</strong>
             td Explosivos  (Clase 1).
@@ -495,29 +496,30 @@
                       th(style="text-align: center")(colspan=2) Contenido esencial
                   tbody
                     tr(style="background-color: #FFFFFF")
-                      td(style="text-align: center") Materias primas
+                      td(style="text-align: center") Perecederos
                       td(colspan=2)
                         ul.checklist
-                          li Descripción del producto (tipo, origen, código de inventario).
-                          li Especificaciones físicas (dimensiones, peso, composición).
+                          li Temperatura óptima de conservación.
+                          li Humedad relativa requerida.
+                          li Tasa de respiración (para vegetales).
+                          li Atmosfera modificada recomendada.
+                          li Protocolos de rechazo.
+
 
                     tr(style="background-color: #F4F5F8;")
-                      td(style="text-align: center") Productos en proceso
+                      td(style="text-align: center") No perecederos
                       td(colspan=2)
                         ul.checklist
-                          li Condiciones de almacenamiento y manejo. 
-                          li Requisitos de embalaje y transporte. Información sobre lote y fecha de fabricación para control de calidad. Instrucciones para uso o procesamiento posterior.
+                          li Condiciones de almacenamiento estándar o especiales.
+                          li Indicaciones de manipulación para evitar daños (en frágiles).
+
                     tr(style="background-color: #FFFFFF;")
-                      td(style="text-align: center") Productos terminados
+                      td(style="text-align: center") Fragíles
                       td(colspan=2)
                         ul.checklist
-                          li Información sobre lote y fecha de fabricación para control de calidad. 
-                          li Instrucciones para uso o procesamiento posterior.
-                    tr(style="background-color: #F4F5F8;")
-                      td(style="text-align: center") Materiales de embalaje y logística
-                      td(colspan=2)
-                        ul.checklist
-                          li Se detallan características como resistencia, dimensiones, compatibilidad con productos, y normas de seguridad para su uso en embalaje y protección durante transporte.
+                          li Requisitos de embalaje reforzado para frágiles.
+                          li Peso, dimensiones y características físicas
+
           .row(titulo="Por naturaleza").justify-content-center.pt-4
             .col-lg-10
               .titulo-sexto.color-acento-contenido.mb-4.z-2
@@ -533,29 +535,25 @@
                       th(style="text-align: center")(colspan=2) Contenido esencial
                   tbody
                     tr(style="background-color: #FFFFFF")
-                      td(style="text-align: center") Materias primas
+                      td(style="text-align: center") Líquidos
                       td(colspan=2)
                         ul.checklist
-                          li Descripción del producto (tipo, origen, código de inventario).
-                          li Especificaciones físicas (dimensiones, peso, composición).
+                          li Viscosidad (cP a 20 °C).
+                          li Punto de congelación/ebullición.
+                          li Compatibilidad con materiales de contenedores.
+                          li Tensión superficial.
+                          li Requerimientos de bombeo.
 
                     tr(style="background-color: #F4F5F8;")
-                      td(style="text-align: center") Productos en proceso
+                      td(style="text-align: center") Gaseosos
                       td(colspan=2)
                         ul.checklist
-                          li Condiciones de almacenamiento y manejo. 
-                          li Requisitos de embalaje y transporte. Información sobre lote y fecha de fabricación para control de calidad. Instrucciones para uso o procesamiento posterior.
-                    tr(style="background-color: #FFFFFF;")
-                      td(style="text-align: center") Productos terminados
-                      td(colspan=2)
-                        ul.checklist
-                          li Información sobre lote y fecha de fabricación para control de calidad. 
-                          li Instrucciones para uso o procesamiento posterior.
-                    tr(style="background-color: #F4F5F8;")
-                      td(style="text-align: center") Materiales de embalaje y logística
-                      td(colspan=2)
-                        ul.checklist
-                          li Se detallan características como resistencia, dimensiones, compatibilidad con productos, y normas de seguridad para su uso en embalaje y protección durante transporte.
+                          li Presión de almacenamiento.
+                          li Compatibilidad de válvulas.
+                          li Factor de compresibilidad.
+                          li Punto de rocío.
+                          li Diagrama P-V-T.
+
           .row(titulo="Por peligrosidad").justify-content-center.pt-4
             .col-lg-10
               .titulo-sexto.color-acento-contenido.mb-4.z-2
@@ -571,29 +569,27 @@
                       th(style="text-align: center")(colspan=2) Contenido esencial
                   tbody
                     tr(style="background-color: #FFFFFF")
-                      td(style="text-align: center") Materias primas
+                      td(style="text-align: center") Explosivos (Clase 1)
                       td(colspan=2)
                         ul.checklist
-                          li Descripción del producto (tipo, origen, código de inventario).
-                          li Especificaciones físicas (dimensiones, peso, composición).
-
+                          li Clasificación de peligrosidad según normativas internacionales (ej. Clase 1 para explosivos, Clase 3 para líquidos inflamables).
+                          li Información sobre riesgos y medidas de seguridad.
                     tr(style="background-color: #F4F5F8;")
-                      td(style="text-align: center") Productos en proceso
+                      td(style="text-align: center") Líquidos inflamables (Clase 3)
                       td(colspan=2)
                         ul.checklist
-                          li Condiciones de almacenamiento y manejo. 
-                          li Requisitos de embalaje y transporte. Información sobre lote y fecha de fabricación para control de calidad. Instrucciones para uso o procesamiento posterior.
+                          li Procedimientos de manipulación, almacenamiento y transporte seguros.
                     tr(style="background-color: #FFFFFF;")
-                      td(style="text-align: center") Productos terminados
+                      td(style="text-align: center") Sustancias tóxicas (Clase 6)
                       td(colspan=2)
                         ul.checklist
-                          li Información sobre lote y fecha de fabricación para control de calidad. 
-                          li Instrucciones para uso o procesamiento posterior.
+                          li Equipos de protección necesarios.
+                          li Instrucciones para respuesta ante emergencias y primeros auxilios.
                     tr(style="background-color: #F4F5F8;")
-                      td(style="text-align: center") Materiales de embalaje y logística
+                      td(style="text-align: center") Corrosivos (Clase 8)
                       td(colspan=2)
                         ul.checklist
-                          li Se detallan características como resistencia, dimensiones, compatibilidad con productos, y normas de seguridad para su uso en embalaje y protección durante transporte.
+                          li Detalles sobre embalaje especializado y etiquetado obligatorio.
 
 
 </template>
