@@ -35,7 +35,7 @@
         ImagenInfografica.color-primario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/3.png', alt='En la figura se presentan los elementos clave en el flujo de bienes.')
+              img(src='@/assets/curso/temas/tema1/3.png', alt='En la figura 1 se presentan los elementos clave en el flujo de bienes, tales como: movimiento físico de mercanciías, gestión documental y trazabilidad y optimización de estacio y recursos.')
 
           .tarjeta-modificada.p-3.ps-lg-5.rounded-4(x="54%" y="88%" numero="01")
             .tarjeta-modificada__img-wrapper.d-none.d-lg-block

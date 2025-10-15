@@ -50,8 +50,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 3.
           span Características del almacén
-        img.d-sm-none(data-aos="fade-up")(src='@/assets/curso/temas/tema3/3-mob.svg', alt='Se detalla en la función de los anillos: anillos de compresión, anillos de aceite y elemento eléctrico.')
-        img.d-none.d-sm-block(data-aos="fade-up")(src='@/assets/curso/temas/tema3/3.svg', alt='Se detalla en la función de los anillos: anillos de compresión, anillos de aceite y elemento eléctrico.')
+        img.d-sm-none(data-aos="fade-up")(src='@/assets/curso/temas/tema3/3-mob.svg', alt='En la figura 3 se muestra las características del almacén y sus diferentes elementos: accesibilidad, sistemas de gestión, seguridad, sostenibilidad, diseño optimizado, trazabilidad y flexibilidad.')
+        img.d-none.d-sm-block(data-aos="fade-up")(src='@/assets/curso/temas/tema3/3.svg', alt='En la figura 3 se muestra las características del almacén y sus diferentes elementos: accesibilidad, sistemas de gestión, seguridad, sostenibilidad, diseño optimizado, trazabilidad y flexibilidad.')
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
     Separador
@@ -101,56 +101,56 @@
           SlyderA(tipo="b").p-2.p-lg-4
             .row.justify-content-center.align-items-center
               .col-lg-8.mb-4.mb-lg-0.p-3.p-sm-5
-                h5.mb-4 1. Análisis inicial
-                p Investigación del mercado y diagnóstico de la situación actual en redes.
+                h5.mb-4 Almacén de materias primas
+                p Almacena insumos para la producción. Ubicación cerca para reducir tiempos de abastecimiento.
               .col-8.col-sm-6.col-lg-4
                 figure
                   img(data-aos="fade-up")(src='@/assets/curso/temas/tema3/8.png', alt='imagen decorativa')
 
             .row.justify-content-center.align-items-center
               .col-lg-8.mb-4.mb-lg-0.p-3.p-sm-5
-                h5.mb-4 2. Definición de objetivos
-                p Establecimiento de metas SMART (específicas, medibles, alcanzables, relevantes y con tiempo definido).
+                h5.mb-4 Almacén de bienes en proceso
+                p Guarda bienes semielaborados durante las etapas de producción.
               .col-8.col-sm-6.col-lg-4
                 figure
                   img(data-aos="fade-up")(src='@/assets/curso/temas/tema3/9.png', alt='imagen decorativa')
 
             .row.justify-content-center.align-items-center
               .col-lg-8.mb-4.mb-lg-0.p-3.p-sm-5
-                h5.mb-4 3. Segmentación de audiencia.
-                p Identificación del público objetivo y estudio de sus intereses.
+                h5.mb-4 Almacén de productos terminados
+                p Contiene bienes listos para su distribución al cliente final. Puede estar cerca de centros de producción o distribución.
               .col-8.col-sm-6.col-lg-4
                 figure
                   img(data-aos="fade-up")(src='@/assets/curso/temas/tema3/10.png', alt='imagen decorativa')
 
             .row.justify-content-center.align-items-center
               .col-lg-8.mb-4.mb-lg-0.p-3.p-sm-5
-                h5.mb-4 4. Selección de plataformas
-                p Elección de redes sociales en función de la estrategia y tipo de contenido.
+                h5.mb-4 Almacén de distribución
+                p Centraliza bienes para su redistribución a minoristas o clientes.
               .col-8.col-sm-6.col-lg-4
                 figure
                   img(data-aos="fade-up")(src='@/assets/curso/temas/tema3/11.png', alt='imagen decorativa')   
             
             .row.justify-content-center.align-items-center
               .col-lg-8.mb-4.mb-lg-0.p-3.p-sm-5
-                h5.mb-4 5. Desarrollo de contenido
-                p Creación del calendario de publicaciones y formatos adecuados.
+                h5.mb-4 Almacén de <em>Cross-Docking</em>.
+                p Minimiza el tiempo de almacenamiento: los bienes entran y salen rápidamente sin guardarse. Ideal para mercancías perecederas o pedidos urgentes.
               .col-8.col-sm-6.col-lg-4
                 figure
                   img(data-aos="fade-up")(src='@/assets/curso/temas/tema3/12.png', alt='imagen decorativa')
             
             .row.justify-content-center.align-items-center
               .col-lg-8.mb-4.mb-lg-0.p-3.p-sm-5
-                h5.mb-4 6. Implementación de estrategias
-                p Aplicación de acciones específicas para generar interacción y <em>engagement</em>.
+                h5.mb-4 Almacén de consolidación
+                p Agrupa cargas pequeñas en envíos más grandes para optimizar el transporte.
               .col-8.col-sm-6.col-lg-4
                 figure
                   img(data-aos="fade-up")(src='@/assets/curso/temas/tema3/13.png', alt='imagen decorativa')
             
             .row.justify-content-center.align-items-center
               .col-lg-8.mb-4.mb-lg-0.p-3.p-sm-5
-                h5.mb-4 7. Medición y ajustes
-                p Evaluación de métricas y adaptación de la estrategia según los resultados obtenidos.
+                h5.mb-4 Almacén temporal (transitorio)
+                p Usado para almacenaje a corto plazo, como en puertos o zonas francas.
               .col-8.col-sm-6.col-lg-4
                 figure
                   img(data-aos="fade-up")(src='@/assets/curso/temas/tema3/14.png', alt='imagen decorativa')

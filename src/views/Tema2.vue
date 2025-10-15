@@ -143,13 +143,13 @@
             .row.justify-content-center.mb-3
               .col-7
                 img.factores-slider__icon.mb-4(src='@/assets/curso/temas/tema2/16.png' alt='Ilustacion de acompañamiento')  
-            p.mb-4.text-center Optimizar el almacenamiento asignando espacios específicos según los requerimientos, como refrigeración o medidas de seguridad.
+            p.mb-4.text-center Optimizar el almacenamiento, asignando espacios específicos según los requerimientos, como refrigeración o medidas de seguridad.
 
           .tarjeta.tarjeta--blanca.px-4.pt-5.factores-slider__tarjeta
             .row.justify-content-center.mb-3
               .col-7
                 img.factores-slider__icon.mb-4(src='@/assets/curso/temas/tema2/17.png' alt='Ilustacion de acompañamiento')  
-            p.mb-4.text-center Mejorar el transporte eligiendo los vehículos y rutas más apropiados para cada tipo de carga.
+            p.mb-4.text-center Mejorar el transporte, eligiendo los vehículos y rutas más apropiados para cada tipo de carga.
             
           .tarjeta.tarjeta--blanca.px-4.pt-5.factores-slider__tarjeta
             .row.justify-content-center.mb-3
@@ -348,7 +348,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
           span Elementos clave de una ficha técnica
-        img(data-aos="fade-up")(src='@/assets/curso/temas/tema2/22.svg', alt='Se detalla en la función de los anillos: anillos de compresión, anillos de aceite y elemento eléctrico.')
+        img(data-aos="fade-up")(src='@/assets/curso/temas/tema2/22.svg', alt='La figura 2 ilustra los elementos de una ficha técnica, a saber: la identificación del bien, las características físicas, sus condiciones de almacenamiento, los requisitos de transporte, la vida útil y caducidad, las normativas y certificaciones y el proveedor y los datos de compra.')
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
     .bg-fondo-3.mb-5.rounded-4.overflow-hidden
@@ -468,7 +468,7 @@
                       td(colspan=2)
                         ul.checklist
                           li Condiciones de almacenamiento y manejo. 
-                          li Requisitos de embalaje y transporte. Información sobre lote y fecha de fabricación para control de calidad. Instrucciones para uso o procesamiento posterior.
+                          li Requisitos de embalaje y transporte. 
                     tr(style="background-color: #FFFFFF;")
                       td(style="text-align: center") Productos terminados
                       td(colspan=2)
@@ -524,7 +524,7 @@
             .col-lg-10
               .titulo-sexto.color-acento-contenido.mb-4.z-2
                 h5 Tabla 6.
-                span Ficha técnica para tipos de bienes según la función en la cadena de suministro
+                span Ficha técnica para tipos de bienes según la naturaleza
 
               .tabla-a.color-secundario.z-2.mb-4.mb-lg-5
                 table
@@ -558,7 +558,7 @@
             .col-lg-10
               .titulo-sexto.color-acento-contenido.mb-4.z-2
                 h5 Tabla 7.
-                span Ficha técnica para tipos de bienes según la función en la cadena de suministro
+                span Ficha técnica para tipos de bienes según la peligrosidad
 
               .tabla-a.color-secundario.z-2.mb-4.mb-lg-5
                 table
